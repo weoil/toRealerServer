@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "target": "es6",
+    "lib": ["es2015", "es2016"],
+    "paths": {
+      "*": ["typing/*"]
+    }
+  },
+  "include": ["src/**/*", "src/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
